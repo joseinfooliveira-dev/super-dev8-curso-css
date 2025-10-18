@@ -1,0 +1,116 @@
+.demonstracao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    height: 100px;
+    margin: 6px;
+    padding: 8px;
+}
+
+
+/* top => parte cima
+   right => direita
+   bottom => parte baixo
+   left => esquerda
+*/
+
+.borda-solid {
+    /* top => borda da parte de cima */
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 4px;
+
+    /* right => borda da parte direita */
+    border-right-style: solid;
+    border-right-color: #000;
+    border-right-width: 4px;
+
+    /* bottom => borda da parte inferior */
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-bottom-width: 4px;
+
+    /* left */
+    border-left-style: solid;
+    border-left-color: #000;
+    border-left-width: 4px;
+}
+
+.borda-dashed {
+    /* border-top-style: solid;
+    border-top-color: #000;
+    border-top-width: 1px; */
+
+    /* Shorthand */
+    border-top: 4px dashed #f59e0b;
+    border-right: 4px dashed #f59e0b;
+    border-bottom: 4px dashed #f59e0b;
+    border-left: 4px dashed #f59e0b;
+
+}
+
+.borda-dotted {
+
+    /* cima, direita, baixo, esquerda */
+    border-width: 6px 6px 6px 6px;
+    border-style: dotted dotted dotted dotted;
+    border-color: #ef4444 #ef4444 #ef4444 #ef4444;
+
+}
+
+.borda-double {
+    /* cima/baixo (6px), direita/esquerda (8px) */
+
+    border-width: 6px 8px;
+    border-color: #7c3aed;
+    /* cima/direita/baixo/esquerda*/
+    border-style: double;
+
+
+}
+
+.borda-groove {
+    /* border-width: 8px
+          border-color: #3b82f6
+          border-style: groove; */
+
+    border: 8px #3b82f6 groove;
+}
+
+.borda-ridge {
+
+    border: 8px ridge #10b981;
+
+}
+
+
+.borda-inset {
+
+    border: 8px #ec4899 inset;
+
+}
+
+
+.borda-outset {
+
+    border: 8px outset #eab308;
+
+}
+
+.borda-radius-diferente {
+    border: 8px #b8b195 solid;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 40px;
+}
+.borda-radius-diferente:hover{
+    border-color: #6e6a59;
+    cursor: pointer;
+}
+.borda-radius-iguais {
+    border: 4px #12Ab23 dashed;
+    border-radius: 100px;
+
+}
