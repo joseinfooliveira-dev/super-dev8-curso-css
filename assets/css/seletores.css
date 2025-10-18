@@ -1,0 +1,39 @@
+/*
+TAG
+    <img src"..." alt="...">
+*/
+
+img{
+    width: 120px;
+}
+
+
+/*
+ID
+<elemento id="the-office">...</elemento>
+*/
+#the-office{
+    width: 110px;
+}
+
+#breaking-bad{
+    width: 150px;
+}
+
+#walking-dead{
+    width: 200px;
+}
+
+#maluco-pedaco{
+    width: 300px;
+}
+
+
+/* Classe: é uma forma de compartilhar estilização entre elementos
+<a class="imagens-mesmo-tamanho">Youtube</a>
+<button class="imagens-mesmo-tamanho">Login</a>
+
+*/
+.imagens-mesmo-tamanho{
+    width: 250px;
+}
