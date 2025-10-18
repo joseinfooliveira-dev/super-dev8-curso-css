@@ -1,3 +1,10 @@
+/*CSS reset*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h2 {
     /*
     Definir a cor do exto utilizando rgb (red, green, blue)
@@ -6,4 +13,21 @@ h2 {
     B => 0..255
     */
     color: rgb(200, 7, 1);
+}
+
+div {
+    background-color: #004d8e;
+}
+
+a {
+    color: #ffffff;
+    /* text-decoration altera a decoração do texto
+"none" faz com que o texto não tenha nenhuma decoração*/
+
+    text-decoration: none;
+}
+
+/* hover é a ação que ocorre quando passar o mouse por cima do elemento */
+a:hover {
+    color: #ff6500
 }
